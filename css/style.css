@@ -176,7 +176,7 @@
 @media (max-width: 767px) {
   .cid-u695DzOLFy .containers {
     width: 95%;
-    height: 56px !important;
+    height: 72px !important;
     padding-right: 1rem;
     margin-top: 0rem;
   }
@@ -658,13 +658,20 @@
   }
 }
 
-#hero-15-u695DzOiUK {
+/* #hero-15-u695DzOiUK {
   background: url('assets/images/nextv.mp4') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
+
+/* @media only screen and (max-width: 767px) {
+  #hero-15-u695DzOiUK {
+      data-bg-video: 'assets/images/mobnextvideo.mp4';
+  }
+} */
+
 
 @media (max-width: 767px) {
   .cid-u695DzOiUK {
@@ -678,13 +685,7 @@
   .cid-u695DzOiUK .content-wrap {
     width: 100%;
   }
-  #hero-15-u695DzOiUK {
-    background: url('assets/images/mobnextvideo.mp4') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+ 
 }
 .cid-u695DzOiUK .mbr-fallback-image.disabled {
   display: none;

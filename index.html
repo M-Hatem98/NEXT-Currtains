@@ -78,10 +78,10 @@
   </nav>
 </section>
 
-<section class="header18 cid-u695DzOiUK mbr-fullscreen"  id="hero-15-u695DzOiUK">
+<section class="header18 cid-u695DzOiUK mbr-fullscreen" data-bg-video="assets/images/next v.mp4" id="hero-15-u695DzOiUK">
   <div class="container-fluid">
     <div class="row">
-      
+      <!-- Your content goes here -->
     </div>
   </div>
 </section>
@@ -1025,8 +1025,7 @@
       </div>
       <div class="col-lg-8 side-features">
         <div class="google-map">
-          <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key&#x3D;AIzaSyCt1265A4qvZy9HKUeA8J15AOC4SrCyZe4&amp;q&#x3D;Cairo%20Egypt" allowfullscreen=""></iframe>
-        </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22937.96217078448!2d55.14788931977468!3d25.118667447421487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f1529c2653b15%3A0x3dcabcae764a3e16!2z2YbYrtmE2Kkg2KfZhNis2YXZitix2Kk!5e0!3m2!1sar!2seg!4v1709730560368!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
       </div>
     </div>
   </div>
@@ -1129,6 +1128,13 @@
 
     // Initial check in case some elements are already in view on page load
     handleScroll();
+
+        // Check for the media query condition and update the data-bg-video attribute
+        if (window.matchMedia("(max-width: 767px)").matches) {
+        document.getElementById('hero-15-u695DzOiUK').setAttribute('data-bg-video', 'assets/images/mobnextvideo.mp4');
+      }else {
+        document.getElementById('hero-15-u695DzOiUK').setAttribute('data-bg-video', 'assets/images/nextv.mp4');
+    }
 
   </script>
 </body>
