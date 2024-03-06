@@ -1033,14 +1033,14 @@
 
 <section class="footer4 cid-u695DzRtrr" once="footers" id="footer-4-u695DzRtrr">
     <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © 2024 Curtains Galore. All Rights Reserved
-                </p>
-            </div>
+      <div class="media-container-row align-center mbr-white">
+        <div class="col-12">
+            <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                © <span id="currentYear"></span> Next Curtains . All Rights Reserved
+            </p>
         </div>
     </div>
+</div>
 </section>
 
 <script src="assets/parallax/jarallax.js"></script>
@@ -1135,6 +1135,8 @@
       }else {
         document.getElementById('hero-15-u695DzOiUK').setAttribute('data-bg-video', 'assets/images/nextv.mp4');
     }
+
+    document.getElementById('currentYear').innerText = new Date().getFullYear();
 
   </script>
 </body>
