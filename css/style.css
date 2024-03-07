@@ -1383,6 +1383,9 @@ body {
   grid-row-gap: 2rem;
 }
 @media (max-width: 767px) {
+  .cid-u695DzQipE {
+    display: none;
+  }
   .cid-u695DzQipE .grid-container {
     grid-row-gap: 1rem;
   }
