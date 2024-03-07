@@ -782,7 +782,7 @@
 .cid-u695DzPjy6 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 .cid-u695DzPjy6 .item-subtitle {
   color: var(--dark-color);
@@ -1029,8 +1029,8 @@
 /* **********************pricing02******************** */
 .cid-u695DzPigG {
   padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: transparent;
+  /* padding-bottom: 3rem; */
+  background-color: #fff;
 }
 
 .cid-u695DzPigG img,
@@ -1169,7 +1169,7 @@
 /* **********************image02******************** */
 /* **********************slider4******************** */
 .cid-u695DzQR4v {
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 6rem;
   background: transparent;
 }
@@ -1311,8 +1311,8 @@
 /* **********************slider4******************** */
 /* **********************people05******************** */
 .cid-u695DzQGoG {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #ffffff;
 }
 .cid-u695DzQGoG .item-wrapper img {
@@ -1366,7 +1366,7 @@
 .cid-u695DzQipE {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 .cid-u695DzQipE .item:focus,
 .cid-u695DzQipE span:focus {
@@ -1412,8 +1412,12 @@
 .cid-u695DzQipE .grid-container {
   display: grid;
   transform: translate3d(-3rem, 0, 0);
-  width: 115vw;
+  width: 315vw;
   grid-column-gap: 1rem;
+  -webkit-transform: translate3d(-3rem, 0, 0);
+  -moz-transform: translate3d(-3rem, 0, 0);
+  -ms-transform: translate3d(-3rem, 0, 0);
+  -o-transform: translate3d(-3rem, 0, 0);
 }
 .cid-u695DzQipE .grid-item {
   display: flex;
@@ -1501,7 +1505,7 @@
 .cid-u695DzRpK4 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 .cid-u695DzRpK4 .social-row {
   display: flex;
@@ -1545,7 +1549,7 @@
 .cid-u695DzROPm {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: transparent;
+  background-color: #fff;
 }
 .cid-u695DzROPm .mbr-overlay {
   background-color: #fff;
