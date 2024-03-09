@@ -1102,6 +1102,15 @@ body {
   -o-transition: all 0.3s ease-in-out;
 }
 
+.curtains.cid-u695DzPigG .nav-pills {
+  width: 50%;
+}
+.curtains.cid-u695DzPigG .tab-pane {
+  width: 100%;
+}
+
+
+
 .curtains.cid-u695DzPigG img:hover {
   transform: scale(.95);
   -webkit-transform: scale(.95);
