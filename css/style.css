@@ -22,7 +22,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+body {
+  background-color: #fff !important;
+}
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -1060,14 +1062,52 @@ body {
   background-color: #fff;
 }
 
+.cid-u695DzPigG button {
+  text-align: left;
+  color: var(--dark-color);
+  padding: 20px !important;
+  /* font-size: 18px; */
+  font-weight: bold;
+}
+
+.cid-u695DzPigG button:hover {
+  color: var(--gold-color);
+}
+
+.cid-u695DzPigG button.active,
+.cid-u695DzPigG button:active {
+  background-color: transparent !important;
+  border-bottom : 2px solid var(--gold-color) !important;
+  color: var(--dark-color) !important;
+}
+
 .cid-u695DzPigG img,
 .cid-u695DzPigG .item-img {
   width: 100%;
   height: 100%;
   height: 400px;
   object-fit: cover;
-  border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+}
+.curtains.cid-u695DzPigG img{
+  width: 100%;
+  height: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-bottom-left-radius: 35px !important;
+  border-bottom-right-radius: 35px !important;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.curtains.cid-u695DzPigG img:hover {
+  transform: scale(.95);
+  -webkit-transform: scale(.95);
+  -moz-transform: scale(.95);
+  -ms-transform: scale(.95);
+  -o-transform: scale(.95);
 }
 
 .cid-u695DzPigG .item:focus,
