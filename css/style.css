@@ -1082,6 +1082,11 @@ body {
   background-color: #fff;
 }
 
+.cid-u695DzPigG video {
+  width: 100%;
+  height: 360px;
+}
+
 .cid-u695DzPigG button {
   text-align: left;
   color: var(--dark-color);
@@ -1108,6 +1113,7 @@ body {
   height: 400px;
   object-fit: cover;
 }
+
 .curtains.cid-u695DzPigG img{
   width: 100%;
   height: 100%;
@@ -1867,5 +1873,35 @@ body {
 .cid-u6BIs5xLE6 .mbr-text,
 .cid-u6BIs5xLE6 .mbr-section-btn {
   color: #000000;
+}
+
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+  text-align: center;
+}
+.services-section {
+  padding: 50px 0;
+}
+
+.services-section p {
+  color: #aaa;
+  line-height: 1.5;
+}
+
+.services-section img {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.services-section img:hover {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
 }
 /* **********************Services******************** */
