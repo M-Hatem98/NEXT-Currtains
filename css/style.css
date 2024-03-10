@@ -54,6 +54,26 @@ body {
   width: 100%;
   position: relative;
 }
+
+.cid-u695DzOLFy ul li a {
+  position: relative;
+}
+
+.cid-u695DzOLFy ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid var(--gold-color);
+  border-bottom-width: 0px;
+}
+
+.cid-u695DzOLFy ul li:hover a::after {
+  border-bottom-width: 100%;
+}
+
+
+
 .cid-u695DzOLFy .dropdown-item:before {
   font-family: Moririse2 !important;
   content: "\e966";

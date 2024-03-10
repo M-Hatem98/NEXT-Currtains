@@ -1213,7 +1213,7 @@
       </div>
     </section>
 
-<section class="form5 cid-u695DzROPm" id="contact-form-2-u695DzROPm">
+<!-- <section class="form5 cid-u695DzROPm" id="contact-form-2-u695DzROPm">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 content-head">
@@ -1250,9 +1250,48 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </section> -->
            
-                
+
+            
+            <section class="form5 cid-u695DzROPm" id="contact-form-2-u695DzROPm">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 content-head">
+                            <div class="mbr-section-head mb-5">
+                                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                                    <strong>Get in Touch</strong>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                            <form method="POST" action="send_email.php" class="mbr-form form-with-styler" data-form-title="Form Name">
+                                <input type="hidden" name="email" data-form-email="true" value="moh.hat226@gmail.com">
+                                <!-- Rest of your form HTML remains unchanged -->
+            
+                                <div class="dragArea row">
+                                    <!-- Your form fields -->
+                                    <div class="col-md col-sm-12 form-group mb-3" data-for="name">
+                                        <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-form02-0">
+                                    </div>
+                                    <div class="col-md col-sm-12 form-group mb-3" data-for="email">
+                                        <input type="email" name="user_email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form02-0">
+                                    </div>
+                                    <div class="col-12 form-group mb-3" data-for="textarea">
+                                        <textarea name="message" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-form02-0"></textarea>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
+                                        <button type="submit" class="btn display-7">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
                 <section class="social05 cid-u695DzRpK4" id="follow-us-2-u695DzRpK4">
                    <div class="container">
                        <div class="row">
@@ -1375,6 +1414,21 @@
     }
 
     document.getElementById('currentYear').innerText = new Date().getFullYear();
+
+
+    // function validateForm() {
+    //     var emailInput = document.getElementById('email-form02-0').value;
+    //     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    //     if (!emailRegex.test(emailInput)) {
+    //         alert('Please enter a valid email address.');
+    //         return false;
+    //     }
+
+    //     // Additional validation logic can be added here
+
+    //     return true;
+    // }
 
   </script>
 </body>
