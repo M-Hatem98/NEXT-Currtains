@@ -19,11 +19,9 @@
   --gold-color: #dcb23e;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 body {
   background-color: #fff !important;
+  scroll-behavior: smooth !important;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -204,7 +202,7 @@ body {
   width: 100% !important;
   height: 90px;
   background-color: var(--dark-color);
-  padding: 0.5rem;
+  padding: 0.5rem 0;
   flex-wrap: nowrap;
   left: 0;
   right: 0;
@@ -687,9 +685,20 @@ body {
 }
 /* **********************Menu******************** */
 /* **********************header18******************** */
+
 .cid-u695DzOiUK {
-  display: flex;
+  height: 100vh !important;
 }
+
+.cid-u695DzOiUK .splide ul li {
+  overflow: hidden;
+}
+
+.cid-u695DzOiUK .splide img {
+  width: 100%;
+  height: auto;
+}
+/*
 @media (min-width: 768px) {
   .cid-u695DzOiUK {
     align-items: flex-end;
@@ -705,7 +714,7 @@ body {
   .cid-u695DzOiUK .content-wrap {
     min-width: 50%;
   }
-}
+} */
 
 /* #hero-15-u695DzOiUK {
   background: url('assets/images/nextv.mp4') no-repeat center center fixed;
@@ -721,7 +730,7 @@ body {
   }
 } */
 
-
+/* 
 @media (max-width: 767px) {
   .cid-u695DzOiUK {
     -webkit-align-items: center;
@@ -757,7 +766,7 @@ body {
 .cid-u695DzOiUK .mbr-text,
 .cid-u695DzOiUK .mbr-section-btn {
   text-align: left;
-}
+} */
 /* **********************header18******************** */
 /* **********************list05******************** */
 
@@ -1905,3 +1914,23 @@ body {
   -o-transform: scale(0.9);
 }
 /* **********************Services******************** */
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 30px;
+  /*background-color: #25d366;
+  */color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.whatsapp-icon img {
+  width: 40px;
+}
