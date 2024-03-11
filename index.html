@@ -81,15 +81,11 @@
   </nav>
 </section>
 
-<section class="header18 cid-u695DzOiUK mt-4 ms-0 pt-0 mb-0 pb-0 mbr-fullscreen" id="hero-15-u695DzOiUK">
-  <!-- <div class="container-fluid"> -->
-    <!-- <div class="row"> -->
-      <!-- Your content goes here -->
-        <!-- ------------------------------------------------------------------ -->
 
-       <div class="splide mt-4" aria-label="Splide Basic HTML Example">
+
+<section class="splide" aria-label="Splide Basic HTML Example">
   <div class="splide__track">
-		<ul class="splide__list">
+    <ul class="splide__list">
       <li class="splide__slide"><img class="rounded-0" src="assets/images/slider3.jpg" alt=""></li>
       <li class="splide__slide"><img class="rounded-0" src="assets/images/slider13.jpg" alt=""></li>
       <li class="splide__slide"><img class="rounded-0" src="assets/images/slider14.jpg" alt=""></li>
@@ -97,16 +93,11 @@
       <li class="splide__slide"><img class="rounded-0" src="assets/images/slider11.jpeg" alt=""></li>
       <li class="splide__slide"><img class="rounded-0" src="assets/images/slider6.jpg" alt=""></li>
       <li class="splide__slide"><img class="rounded-0" src="assets/images/slider15.jpg" alt=""></li>
-		</ul>
+    </ul>
   </div>
-</div>
-        
-        <!-- ------------------------------------------------------------------ -->
-    <!-- </div> -->
-  <!-- </div> -->
 </section>
-
-<section class="gallery10 cid-u695DzPysL pb-0" style="margin-top: -20px;" id="features-69-u695DzPysL">
+        
+<section class="gallery10 cid-u695DzPysL pb-0" id="features-69-u695DzPysL">
   <div class="container-fluid">
       <div class="loop-container">
         <div class="item display-1" data-linewords="
@@ -1341,11 +1332,31 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></scr
 
     //     return true;
     // }
-
     document.addEventListener('DOMContentLoaded', function () {
-      var splide = new Splide( '.splide' );
-splide.mount();
+  var splide = new Splide('.splide', {
+    direction: 'ttb',
+    height: '600px',
+    perPage: 1,
+    fixedWidth: '100%',
+    fixedHeight: '100%',
+    gap: 0,
+    autoplay: true,
+    type: 'loop',
+    interval: 3000,
+    pauseOnHover: false,
+    pagination: true, // Disable pagination for a cleaner look
+    breakpoints: {
+      768: { // Adjust settings for smaller screens
+        height: '300px', // Adjust the height for smaller screens
+      },
+      480: { // Adjust settings for even smaller screens
+        height: '200px', // Adjust the height for even smaller screens
+      },
+    },
   });
+
+  splide.mount();
+});
 
 
   document.getElementById('whatsapp-icon').addEventListener('click', function() {
