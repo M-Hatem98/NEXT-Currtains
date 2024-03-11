@@ -1302,18 +1302,18 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></scr
             if (isElementInViewport(element)) {
                 // Trigger animation for each item when it comes into view
                 animateCount(`happyCustomersCount`, 0, 1000, 2000); // Adjust the duration and end value accordingly
-                animateCount(`uniqueDesigns`, 0, 500, 2000); // Adjust the duration and end value accordingly
-                animateCount(`Satisfaction`, 0, 99, 2000); // Adjust the duration and end value accordingly
+                animateCount(`uniqueDesigns`, 0, 500, 4000); // Adjust the duration and end value accordingly
+                animateCount(`Satisfaction`, 0, 99, 5000); // Adjust the duration and end value accordingly
                 // Repeat for other items with different IDs
             }
         });
     }
 
-    // // Attach the handleScroll function to the scroll event
-    // window.onscroll = handleScroll;
+    // Attach the handleScroll function to the scroll event
+    window.onscroll = handleScroll;
 
-    // // Initial check in case some elements are already in view on page load
-    // handleScroll();
+    // Initial check in case some elements are already in view on page load
+    handleScroll();
 
 
     document.getElementById('currentYear').innerText = new Date().getFullYear();
