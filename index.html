@@ -1343,20 +1343,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></scr
     // }
 
     document.addEventListener('DOMContentLoaded', function () {
-      var splide = new Splide('.splide', {
-  direction: 'rtl',
-  height: '600px',
-  perPage: 1, // Show one slide at a time
-  fixedWidth: '100%',
-  fixedHeight: '100%',
-  gap: 0, // No gap between slides
-  autoplay: true, // Enable autoplay
-  type   : 'loop',
-  interval: 4000, // Set autoplay interval in milliseconds (adjust as needed)
-  pauseOnHover: false, // Pause autoplay on hover
-  // wheel: true,
-});
-
+      var splide = new Splide( '.splide' );
 splide.mount();
   });
 
