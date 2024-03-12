@@ -1060,9 +1060,11 @@ body {
 /* **********************pricing02******************** */
 .cid-u695DzPigG {
   padding-top: 5rem;
-  background-color: #fff;
 }
 
+.pricing021 {
+  background-color: var(--background);
+}
 .cid-u695DzPigG video {
   width: 100%;
   height: 360px;
@@ -1199,54 +1201,6 @@ body {
   max-width: 800px;
 }
 /* **********************pricing02******************** */
-/* **********************header19******************** */
-.cid-u695DzQY6o {
-  padding-top: 6em;
-  padding-bottom: 6em;
-  background-color: var(--dominant-color, #393193);
-}
-@media (min-width: 768px) {
-  .cid-u695DzQY6o {
-    align-items: center;
-  }
-  .cid-u695DzQY6o .row {
-    justify-content: center;
-  }
-}
-@media (max-width: 991px) and (min-width: 768px) {
-  .cid-u695DzQY6o .content-wrap {
-    min-width: 50%;
-  }
-}
-@media (max-width: 767px) {
-  .cid-u695DzQY6o {
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  .cid-u695DzQY6o .mbr-row {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-  .cid-u695DzQY6o .content-wrap {
-    width: 100%;
-  }
-}
-.cid-u695DzQY6o .mbr-section-title {
-  text-align: center;
-  color: var(--dominant-text, #ffffff);
-}
-.cid-u695DzQY6o .mbr-text,
-.cid-u695DzQY6o .mbr-section-btn {
-  text-align: center;
-  color: var(--dominant-text, #ffffff);
-}
-/* **********************header19******************** */
-/* **********************image02******************** */
-.cid-u695DzQkX5 {
-  overflow: hidden;
-  background-image: url("assets/images/photo-1540905255418-61f7468593cc.jpeg");
-}
-/* **********************image02******************** */
 /* **********************slider4******************** */
 .cid-u695DzQR4v {
   padding-top: 3rem;
@@ -1393,7 +1347,7 @@ body {
 .cid-u695DzQGoG {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: var(--background);
+  background-color: #fff;
 }
 .cid-u695DzQGoG .item-wrapper img {
   width: 80px;
@@ -1446,7 +1400,7 @@ body {
 .cid-u695DzQipE {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #fff;
+  background-color: var(--background);
 }
 .cid-u695DzQipE .item:focus,
 .cid-u695DzQipE span:focus {
@@ -1537,7 +1491,7 @@ body {
 .cid-u695DzQew7 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: var(--background);
+  background-color: #fff;
 }
 .cid-u695DzQew7 .item-subtitle {
   line-height: 1.2;
@@ -1682,7 +1636,7 @@ body {
 .cid-u695DzRLX8 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #fff;
+  background-color: var(--background);
 }
 
 .cid-u695DzRLX8 p a {
