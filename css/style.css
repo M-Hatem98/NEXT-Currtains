@@ -705,6 +705,34 @@ body {
   max-height: 600px; /* Set a maximum height for the track */
 }
 
+
+.splide {
+  position: relative;
+}
+
+.splide-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1); /* Adjust the transparency here */
+  z-index: 1; /* Place the overlay above the slider */
+}
+
+.splide__slide {
+  position: relative;
+  z-index: 2; /* Place the slides above the overlay */
+}
+
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
 /* Optional: Add some styling for smaller screens */
 @media (max-width: 768px) {
   .splide__track {
@@ -1640,7 +1668,8 @@ body {
   max-width: 800px;
 }
 .cid-u695DzQew7 img {
-  filter: grayscale(1);
+  /* filter: grayscale(0.7);
+  -webkit-filter: grayscal e(0.7); */
 }
 /* **********************features03******************** */
 /* **********************social05******************** */
@@ -1949,16 +1978,9 @@ body {
   position: fixed;
   bottom: 20px;
   left: 20px;
-  font-size: 30px;
-  /*background-color: #25d366;
-  */color: #fff;
   padding: 10px;
-  border-radius: 50%;
   cursor: pointer;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  z-index: 50;
 }
 
 .whatsapp-icon img {
