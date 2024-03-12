@@ -30,17 +30,16 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Change this to the desired background color */
+  background: #f1f1f1; 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--dark-color); /* Change this to the desired thumb color */
+  background: var(--dark-color); 
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--gold-color); /* Change this to the desired thumb color on hover */
+  background: var(--gold-color); 
 }
 
 body {
@@ -69,8 +68,6 @@ body {
 .cid-u695DzOLFy ul li:hover a::after {
   border-bottom-width: 100%;
 }
-
-
 
 .cid-u695DzOLFy .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -609,7 +606,6 @@ body {
     background: var(--dark-color);
     opacity: 1;
     border-color: rgba(255, 255, 255, 0.8) !important;
-    /* background: rgba(255, 255, 255, 0.8) !important; */
     backdrop-filter: blur(8px);
   }
   .cid-u695DzOLFy .navbar-nav .nav-item .nav-link::after {
@@ -698,11 +694,11 @@ body {
 .splide__slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure images cover the slide */
+  object-fit: cover;
 }
 
 .splide__track {
-  max-height: 600px; /* Set a maximum height for the track */
+  max-height: 600px;
 }
 
 
@@ -716,13 +712,13 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.1); /* Adjust the transparency here */
-  z-index: 1; /* Place the overlay above the slider */
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1; 
 }
 
 .splide__slide {
   position: relative;
-  z-index: 2; /* Place the slides above the overlay */
+  z-index: 2;
 }
 
 .splide__slide img {
@@ -732,99 +728,18 @@ body {
 }
 
 
-
-/* Optional: Add some styling for smaller screens */
 @media (max-width: 768px) {
   .splide__track {
-    max-height: 300px; /* Adjust max-height for smaller screens */
+    max-height: 300px; 
   }
 }
 
 @media (max-width: 480px) {
   .splide__track {
-    max-height: 200px; /* Adjust max-height for even smaller screens */
+    max-height: 200px;
   }
 }
 
-/* .cid-u695DzOiUK {
-  height: 100vh !important;
-}
-
-.cid-u695DzOiUK .splide ul li {
-  overflow: hidden;
-}
-.cid-u695DzOiUK .splide img {
-  width: 100%;
-} */
-/*
-@media (min-width: 768px) {
-  .cid-u695DzOiUK {
-    align-items: flex-end;
-  }
-  .cid-u695DzOiUK .row {
-    justify-content: flex-start;
-  }
-  .cid-u695DzOiUK .content-wrap {
-    padding: 1rem 3rem;
-  }
-}
-@media (max-width: 991px) and (min-width: 768px) {
-  .cid-u695DzOiUK .content-wrap {
-    min-width: 50%;
-  }
-} */
-
-/* #hero-15-u695DzOiUK {
-  background: url('assets/images/nextv.mp4') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
-/* @media only screen and (max-width: 767px) {
-  #hero-15-u695DzOiUK {
-      data-bg-video: 'assets/images/mobnextvideo.mp4';
-  }
-} */
-
-/* 
-@media (max-width: 767px) {
-  .cid-u695DzOiUK {
-    -webkit-align-items: center;
-    align-items: flex-end;
-  }
-  .cid-u695DzOiUK .mbr-row {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-  .cid-u695DzOiUK .content-wrap {
-    width: 100%;
-  }
- 
-}
-.cid-u695DzOiUK .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-u695DzOiUK .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  background: #000000;
-}
-.cid-u695DzOiUK .mbr-section-title,
-.cid-u695DzOiUK .mbr-section-subtitle {
-  text-align: left;
-  color: var(--gold-color);
-}
-.cid-u695DzOiUK .mbr-text,
-.cid-u695DzOiUK .mbr-section-btn {
-  text-align: left;
-} */
 /* **********************header18******************** */
 /* **********************list05******************** */
 
@@ -1145,7 +1060,6 @@ body {
 /* **********************pricing02******************** */
 .cid-u695DzPigG {
   padding-top: 5rem;
-  /* padding-bottom: 3rem; */
   background-color: #fff;
 }
 
@@ -1158,7 +1072,6 @@ body {
   text-align: left;
   color: var(--dark-color);
   padding: 20px !important;
-  /* font-size: 18px; */
   font-weight: bold;
 }
 
@@ -1698,7 +1611,6 @@ body {
   font-size: 32px;
   background-color: var(--dark-color);
   color: var(--gold-color);
-  /* color: var(--primary-color, #393193); */
   transition: all 0.3s ease-in-out;
 }
 .cid-u695DzRpK4 .row-links {
@@ -1738,7 +1650,6 @@ body {
   -o-border-radius: 10px !important;
   padding: 15px;
 }
-
 
 .cid-u695DzROPm textarea ,
 .cid-u695DzROPm input,
